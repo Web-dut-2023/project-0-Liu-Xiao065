@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>高级搜索</title>
+</head>
+<body>
+    <div id="align_right">
+        <a href="./index.html">Google搜索</a>
+    </div>
+
+    <div class="container_acvanced">
+        <form action="https://www.google.com/search" method="GET">
+
+            <label>all these words:</label>
+            <input type="text" name="as_q" id="all-words" class="search-bar"><br>
+
+            <label>this exact word or phrase:</label>
+            <input type="text" name="as_epq" id="exact-phrase" class="search-bar"><br>
+
+            <label>any of these words:</label>
+            <input type="text" name="as_oq" id="any-words" class="search-bar"><br>
+
+            <label>none of these words:</label>
+            <input type="text" name="as_eq" id="exclude-words" class="search-bar"><br>
+
+            <input type="submit" value="高级搜索" class="search-button-advanced">
+        </form>
+    </div>
+</body>
+</html>
